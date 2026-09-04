@@ -1,7 +1,18 @@
 const experience = [
     {
-        date: "Aug 2025 — Present",
+        date: "2026 — Present",
         current: true,
+        role: "HOD — IT Executive",
+        company: "DoubleTree by Hilton",
+        description:
+            "Head of IT operations and infrastructure",
+        details:
+            "Manage day-to-day IT operations, hotel IT infrastructure, network systems, servers, Active Directory, POS systems, user support, and IT projects while coordinating with vendors and hotel departments.",
+    },
+
+    {
+        date: "Aug 2025 — Present",
+        current: false,
         role: "Senior Technical Support Engineer",
         company: "ACCEL IT",
         description:
