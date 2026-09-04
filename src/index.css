@@ -27,6 +27,37 @@ html {
     scroll-behavior: smooth;
 }
 
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+
+    background-image:
+        linear-gradient(
+            rgba(3, 8, 6, 0.75),
+            rgba(3, 8, 6, 0.80)
+        ),
+        url("/bg_image.jpg");
+
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center top;
+
+    animation: matrixRain 20s linear infinite;
+}
+
+@keyframes matrixRain {
+    from {
+        background-position: center 0;
+    }
+
+    to {
+        background-position: center 1000px;
+    }
+}
+
+/* Right to Left text direction BG
+
 body {
     background: #050807eb;
     color: #d5ded9;
@@ -51,7 +82,7 @@ body::before {
     background-position: 0 center;
 
     animation: matrixMove 30s linear infinite;
-    opacity: 0.65;
+    opacity: 0.85;
 }
 
 @keyframes matrixMove {
@@ -62,7 +93,7 @@ body::before {
     to {
         background-position: -1000px center;
     }
-}
+} */
 
 /* Constant Background Image
 
