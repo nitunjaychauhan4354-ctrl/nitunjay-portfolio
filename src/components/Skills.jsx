@@ -39,14 +39,15 @@ function Skills() {
                 />
 
                 <SkillGroup
+                    label="Tools & Systems"
+                    items={skills.tools}
+                />
+                
+                <SkillGroup
                     label="Programming"
                     items={skills.programming}
                 />
 
-                <SkillGroup
-                    label="Tools & Systems"
-                    items={skills.tools}
-                />
             </div>
         </section>
     );

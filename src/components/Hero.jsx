@@ -1,3 +1,5 @@
+import terminal from "./Terminal";
+
 function Hero() {
     return (
         <main className="hero">

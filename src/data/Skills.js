@@ -6,16 +6,18 @@ const skills = {
         "Switch Configuration",
         "Active Directory",
         "Server Monitoring",
-        "POS / GRE Systems",
+        "GRE Systems",
+        "Point Of Sale Systems",
     ],
 
     webDevelopment: [
         "React",
         "JavaScript",
-        "HTML / CSS",
+        "HTML",
+        "CSS",
         "Tailwind CSS",
         "MongoDB",
-        "MySQL",
+        "MySQL"
     ],
 
     programming: [
@@ -27,7 +29,7 @@ const skills = {
     tools: [
         "Windows",
         "Linux",
-        "macOS",
+        "MacOS",
         "Wireshark",
         "Nmap",
         "BurpSuite",
