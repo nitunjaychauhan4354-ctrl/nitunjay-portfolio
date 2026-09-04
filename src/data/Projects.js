@@ -1,18 +1,20 @@
 const projects = [
     {
-        number: "01",
+        id: "01",
         title: "Level Up",
         description:
-            "Fitness application built with a small team, covering exercise logbooks, recipes, a progressive alarm and calorie tracking.",
+            "A fitness application designed to help users track workouts, monitor progress, and stay consistent with their fitness goals.",
+        tech: ["React", "JavaScript", "MongoDB"],
         placeholder: false,
     },
-
     {
-        number: "next/",
-        title: "This portfolio, full MERN",
+        id: "next/",
+        title: "This Portfolio",
         description:
-            "Adding an Express + MongoDB backend for a working contact form next.",
+            "A personal portfolio focused on IT infrastructure, networking, technical support, and web development.",
+        tech: ["React", "Vite", "Tailwind CSS"],
         placeholder: true,
+        note: "Adding an Express + MongoDB backend for a working contact form next.",
     },
 ];
 
