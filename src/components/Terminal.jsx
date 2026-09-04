@@ -191,7 +191,7 @@ function Terminal() {
                     </div>
 
                     <span className="terminal-title">
-                        nitunjay@portfolio:~
+                        root@nitunjay:~
                     </span>
                 </div>
 
@@ -241,7 +241,7 @@ function Terminal() {
                         className="terminal-input-line"
                     >
                         <span className="terminal-prompt">
-                            nitunjay@portfolio:~$
+                            root@nitunjay: ~$
                         </span>
 
                         <input
