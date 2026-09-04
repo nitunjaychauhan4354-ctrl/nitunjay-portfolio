@@ -424,3 +424,269 @@ footer span {
         padding: 25px 0;
     }
 }
+/* ===== Additions ===== */
+
+/* Nav resume button + active link state */
+
+.navbar {
+    gap: 20px;
+}
+
+.nav-resume {
+    padding: 8px 16px;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.nav-links a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-links a.active {
+    color: #00ff73;
+}
+
+.nav-caret {
+    color: #00ff73;
+    width: 0;
+    overflow: visible;
+    display: inline-block;
+}
+
+/* Blinking cursor in hero */
+
+.cursor {
+    display: inline-block;
+    color: #00ff73;
+    margin-left: 4px;
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+/* Timeline (Experience section) */
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    gap: 24px;
+    padding: 24px 0;
+    border-top: 1px solid rgba(0, 255, 115, 0.1);
+}
+
+.timeline-item:first-child {
+    border-top: none;
+}
+
+.timeline-meta {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.timeline-date {
+    color: #65746c;
+    font-size: 11px;
+}
+
+.timeline-body h3 {
+    color: #c9d5cf;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.timeline-org {
+    color: #00e878;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.timeline-org span {
+    color: #65746c;
+}
+
+.timeline-body > p:not(.timeline-org) {
+    color: #748179;
+    font-size: 13px;
+    line-height: 1.8;
+    max-width: 60ch;
+}
+
+/* Project card placeholder variant */
+
+.project-card--placeholder {
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-card--placeholder > span {
+    color: #65746c;
+}
+
+/* Skill groups */
+
+.skill-groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.skill-group-label {
+    color: #9aa9a2;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+/* Education + Languages */
+
+.education-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 60px;
+    max-width: 1100px;
+}
+
+.edu-list,
+.lang-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.edu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(0, 255, 115, 0.1);
+}
+
+.edu-item:last-child {
+    border-bottom: none;
+}
+
+.edu-item h3 {
+    color: #c9d5cf;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.lang-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.lang-level {
+    color: #65746c;
+}
+
+.lang-bar {
+    height: 4px;
+    background: rgba(0, 255, 115, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.lang-bar span {
+    display: block;
+    height: 100%;
+    background: #00ff73;
+}
+
+/* Contact panel */
+
+.contact-panel {
+    max-width: 480px;
+    margin: 0 auto 30px;
+    border: 1px solid rgba(0, 255, 115, 0.18);
+    background: rgba(7, 13, 11, 0.65);
+    text-align: left;
+}
+
+.contact-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 255, 115, 0.1);
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.contact-row:last-child {
+    border-bottom: none;
+}
+
+.contact-row:hover:not(.contact-row--static) {
+    background: rgba(0, 255, 115, 0.05);
+}
+
+.contact-row > span:first-child {
+    color: #65746c;
+    min-width: 50px;
+}
+
+.contact-row strong {
+    flex: 1;
+    color: #c9d5cf;
+    font-weight: 400;
+}
+
+.copy-hint {
+    color: #00e878;
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.contact-row--static {
+    cursor: default;
+}
+
+.contact-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Mobile additions */
+
+@media (max-width: 800px) {
+    .nav-resume {
+        display: none;
+    }
+
+    .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .skill-groups {
+        grid-template-columns: 1fr;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
