@@ -27,6 +27,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: #050807eb;
+    color: #d5ded9;
+    font-family: "Fira Code", monospace;
+    overflow-x: hidden;
+}
+
 .background {
     position: fixed;
     inset: 0;
@@ -57,13 +64,6 @@ html {
 }
 
 /* Right to Left text direction BG
-
-body {
-    background: #050807eb;
-    color: #d5ded9;
-    font-family: "Fira Code", monospace;
-    overflow-x: hidden;
-}
 
 body::before {
     content: "";
