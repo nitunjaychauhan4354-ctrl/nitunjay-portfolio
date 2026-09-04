@@ -106,6 +106,16 @@ function Navbar() {
                     </span>
                     Contact
                 </a>
+
+                <a
+                    href="#terminal"
+                    className={activeSection === "terminal" ? "active" : ""}
+                >
+                    <span className="nav-caret">
+                        {activeSection === "terminal" ? "> " : ""}
+                    </span>
+                    Terminal
+                </a>
             </div>
 
             <a

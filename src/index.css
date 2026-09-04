@@ -691,3 +691,228 @@ footer span {
         gap: 40px;
     }
 }
+
+
+\\Contact Page
+
+.contact-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #7cff9b;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background: rgba(5, 8, 7, 0.8);
+    border: 1px solid rgba(124, 255, 155, 0.25);
+    color: #d5ded9;
+    font-family: "Fira Code", monospace;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #7cff9b;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #68736d;
+}
+
+.form-error {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.contact-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+/* ========================================
+   INTERACTIVE TERMINAL
+======================================== */
+
+.terminal-section {
+    position: relative;
+}
+
+.terminal-window {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #030504;
+    border: 1px solid rgba(124, 255, 155, 0.3);
+    box-shadow:
+        0 0 30px rgba(124, 255, 155, 0.05),
+        inset 0 0 30px rgba(124, 255, 155, 0.02);
+    overflow: hidden;
+}
+
+.terminal-header {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid rgba(124, 255, 155, 0.15);
+    background: rgba(124, 255, 155, 0.03);
+}
+
+/* .terminal-dots {
+    position: absolute;
+    left: 15px;
+    display: flex;
+    gap: 7px;
+}
+
+.terminal-dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(124, 255, 155, 0.4);
+} */
+
+.terminal-title {
+    color: #68736d;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8rem;
+}
+
+.terminal-body {
+    height: 430px;
+    padding: 1.5rem;
+    overflow-y: auto;
+    color: #d5ded9;
+    font-family: "Fira Code", monospace;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    cursor: text;
+}
+
+.terminal-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.terminal-body::-webkit-scrollbar-track {
+    background: #030504;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+    background: rgba(124, 255, 155, 0.25);
+}
+
+.terminal-line {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+    color: #d5ded9;
+}
+
+.terminal-prompt {
+    color: #7cff9b;
+    white-space: nowrap;
+}
+
+.terminal-output {
+    margin: 0.4rem 0 0.8rem;
+    color: #9eaaa3;
+}
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.terminal-input-line input {
+    flex: 1;
+    min-width: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #d5ded9;
+    font-family: "Fira Code", monospace;
+    font-size: 0.85rem;
+}
+
+.terminal-cursor {
+    color: #7cff9b;
+    animation: terminalBlink 1s steps(1) infinite;
+}
+
+@keyframes terminalBlink {
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .terminal-body {
+        height: 380px;
+        padding: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .terminal-line,
+    .terminal-input-line {
+        gap: 0.4rem;
+    }
+
+    .terminal-prompt {
+        font-size: 0.72rem;
+    }
+
+    .terminal-input-line input {
+        font-size: 0.75rem;
+    }
+}
