@@ -29,23 +29,23 @@ function Skills() {
 
             <div className="skill-groups">
                 <SkillGroup
-                    label="Networking & Hardware"
+                    label="Networking & Security"
                     items={skills.networking}
                 />
 
                 <SkillGroup
-                    label="Web Development"
-                    items={skills.webDevelopment}
+                    label="Systems & Infrastructure"
+                    items={skills.systems}
                 />
 
                 <SkillGroup
-                    label="Tools & Systems"
-                    items={skills.tools}
+                    label="Enterprise & Support"
+                    items={skills.enterprise}
                 />
                 
                 <SkillGroup
-                    label="Programming"
-                    items={skills.programming}
+                    label="Development & Tools"
+                    items={skills.tools}
                 />
 
             </div>
