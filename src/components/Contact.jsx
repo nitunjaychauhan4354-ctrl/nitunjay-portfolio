@@ -106,7 +106,7 @@ function Contact() {
                     rel="noreferrer"
                     className="btn"
                 >
-                    [GitHub]
+                    GitHub
                 </a>
 
                 <a
@@ -115,7 +115,7 @@ function Contact() {
                     rel="noreferrer"
                     className="btn"
                 >
-                    [LinkedIn]
+                    LinkedIn
                 </a>
             </div>
         </section>
