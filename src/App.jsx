@@ -20,11 +20,11 @@ function App() {
             <Hero />
             <Stats />
             <About />
+            <Skills />
             <Experience />
+            <Education />
             <Achievements />
             <Projects />
-            <Skills />
-            <Education />
             <Terminal />
             {/* <Contact /> */}
             <Footer />
