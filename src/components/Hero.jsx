@@ -5,10 +5,10 @@ function Hero() {
         <main className="hero">
             <section className="hero-left">
                 <div className="tags">
-                    <span>IT</span>
-                    <span>Networking</span>
-                    <span>Infrastructure</span>
-                    <span>Technical Support</span>
+                    <span>IT Infrastructure</span>
+                    <span>Network Operations</span>
+                    <span>Systems Administration</span>
+                    <span>IT Operations</span>
                 </div>
 
                 <h1>
@@ -19,12 +19,15 @@ function Hero() {
                 </h1>
 
                 <h2>
-                    IT Infrastructure &amp; Network Specialist
+                    IT Infrastructure &amp;  Technology Operations
                 </h2>
 
+                {/* <p>
+                    Experienced IT professional with expertise in infrastructure management, network operations, enterprise systems, and IT service delivery. Focused on maintaining resilient technology environments, leading technical operations, coordinating vendors, and delivering solutions that support business continuity and operational excellence.
+                </p> */}
+
                 <p>
-                    I build, manage and troubleshoot reliable IT
-                    infrastructure, networks and enterprise systems.
+                    I manage and optimize enterprise IT infrastructure, networks, and critical systems, combining hands-on technical expertise with operational leadership to deliver secure, reliable, and business-focused technology solutions.
                 </p>
 
                 <div className="buttons">
@@ -41,24 +44,25 @@ function Hero() {
             <section className="hero-card">
                 <div className="card-header">
                     <span className="status"></span>
-                    Currently working
+                    IT OPERATIONS
                 </div>
 
                 <div className="terminal-list">
-                    <p>▸ Hotel IT Infrastructure</p>
-                    <p>▸ Network &amp; Wi-Fi</p>
-                    <p>▸ Active Directory</p>
+                    <p>▸ Systems, Active Directory &amp; Microsoft 365</p>
+                    <p>▸ Operations Monitoring &amp; Vendor Coordination</p>
+                    <p>▸ Enterprise IT &amp; Hotel Systems</p>
+                    <p>▸ LAN, WAN &amp; Wi-Fi Operations</p>
                     <p>▸ Server Monitoring</p>
-                    <p>▸ POS / GRE Systems</p>
                 </div>
 
                 <div className="card-divider"></div>
 
                 <div className="card-item">
-                    <span>Experience</span>
+                    <span>Current Role</span>
 
                     <strong>
-                        Senior Technical Support Engineer
+                        IT Executive at  
+                        <a href="https://www.hilton.com/en/" target="_blank" rel="noopener noreferrer"> Double Tree by Hilton</a> 
                     </strong>
                 </div>
 
@@ -66,7 +70,7 @@ function Hero() {
                     <span>Focus</span>
 
                     <strong>
-                        IT Infrastructure &amp; Networking
+                        IT Infrastructure &amp; Operations
                     </strong>
                 </div>
             </section>
