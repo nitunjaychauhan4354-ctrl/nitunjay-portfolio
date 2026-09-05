@@ -27,7 +27,7 @@ function Hero() {
                 </p> */}
 
                 <p>
-                    I manage and optimize enterprise IT infrastructure, networks, and critical systems, combining hands-on technical expertise with operational leadership to deliver secure, reliable, and business-focused technology solutions.
+                    I manage and optimize Hospitality IT infrastructure, networks, and critical systems, combining hands-on technical expertise with operational leadership to deliver secure, reliable, and business-focused technology solutions.
                 </p>
 
                 <div className="buttons">
