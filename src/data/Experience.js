@@ -14,7 +14,7 @@ const experience = [
         date: "Aug 2025 — Present",
         current: false,
         role: "Senior Technical Support Engineer",
-        company: "ACCEL IT",
+        company: "ACCEL LIMITED",
         description:
             "Managed IT for ITC Grand Goa, Arossim",
         details:
@@ -32,16 +32,16 @@ const experience = [
             "Maintained hotel Wi-Fi and administrative networks, resolved guest connectivity issues, and supported desktops, laptops and printers.",
     },
 
-    {
-        date: "Apr 2024 — Jul 2024",
-        current: false,
-        role: "Computer Hardware Technician",
-        company: "Bits Bytes Technologies",
-        description:
-            "St. Inez, Goa",
-        details:
-            "Repaired computers and laptops, installed and configured hardware, and managed inventory for client service turnaround.",
-    },
+    // {
+    //     date: "Apr 2024 — Jul 2024",
+    //     current: false,
+    //     role: "Computer Hardware Technician",
+    //     company: "Bits Bytes Technologies",
+    //     description:
+    //         "St. Inez, Goa",
+    //     details:
+    //         "Repaired computers and laptops, installed and configured hardware, and managed inventory for client service turnaround.",
+    // },
 ];
 
 export default experience;

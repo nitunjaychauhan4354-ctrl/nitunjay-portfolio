@@ -7,7 +7,7 @@ import Achievements from "./components/Achievements";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Terminal from "./components/Terminal";
 
@@ -18,7 +18,7 @@ function App() {
 
             <Navbar />
             <Hero />
-            <Stats />
+            {/* <Stats /> */}
             <About />
             <Skills />
             <Experience />

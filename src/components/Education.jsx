@@ -54,6 +54,24 @@ function Education() {
                 <h2>Languages</h2>
 
                 <div className="lang-list">
+
+                    <div className="lang-item">
+                        <div className="lang-row">
+                            <span>English</span>
+                            <span className="lang-level">
+                                Proficient
+                            </span>
+                        </div>
+
+                        <div className="lang-bar">
+                            <span
+                                style={{
+                                    width: "85%",
+                                }}
+                            ></span>
+                        </div>
+                    </div>
+
                     <div className="lang-item">
                         <div className="lang-row">
                             <span>Hindi</span>
@@ -73,23 +91,6 @@ function Education() {
 
                     <div className="lang-item">
                         <div className="lang-row">
-                            <span>English</span>
-                            <span className="lang-level">
-                                Proficient
-                            </span>
-                        </div>
-
-                        <div className="lang-bar">
-                            <span
-                                style={{
-                                    width: "80%",
-                                }}
-                            ></span>
-                        </div>
-                    </div>
-
-                    <div className="lang-item">
-                        <div className="lang-row">
                             <span>Konkani</span>
                             <span className="lang-level">
                                 Intermediate
@@ -99,7 +100,7 @@ function Education() {
                         <div className="lang-bar">
                             <span
                                 style={{
-                                    width: "60%",
+                                    width: "70%",
                                 }}
                             ></span>
                         </div>

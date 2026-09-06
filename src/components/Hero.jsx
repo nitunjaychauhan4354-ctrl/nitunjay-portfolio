@@ -8,7 +8,7 @@ function Hero() {
                     <span>IT Infrastructure</span>
                     <span>Network Operations</span>
                     <span>Systems Administration</span>
-                    <span>IT Operations</span>
+                    {/* <span>IT Operations</span> */}
                 </div>
 
                 <h1>
