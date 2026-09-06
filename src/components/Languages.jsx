@@ -42,39 +42,7 @@ function App() {
 
     return (
         <div className="portfolio">
-            {/* Background overlay */}
-            <div className="background"></div>
 
-            {/* Navigation */}
-            <nav className="navbar">
-                <div className="logo">&gt;_ NITUNJAY CHAUHAN</div>
-
-                <div className="nav-links">
-                    <a href="#about" className={activeSection === "about" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "about" ? "> " : ""}</span>About
-                    </a>
-                    <a href="#experience" className={activeSection === "experience" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "experience" ? "> " : ""}</span>Experience
-                    </a>
-                    <a href="#achievements" className={activeSection === "achievements" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "achievements" ? "> " : ""}</span>Achievements
-                    </a>
-                    <a href="#projects" className={activeSection === "projects" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "projects" ? "> " : ""}</span>Projects
-                    </a>
-                    <a href="#skills" className={activeSection === "skills" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "skills" ? "> " : ""}</span>Skills
-                    </a>
-                    <a href="#contact" className={activeSection === "contact" ? "active" : ""}>
-                        <span className="nav-caret">{activeSection === "contact" ? "> " : ""}</span>Contact
-                    </a>
-                </div>
-
-                {/* Add Nitunjay_Chauhan_Resume.pdf to /public for this to work */}
-                <a href="/Nitunjay_Chauhan_Resume.pdf" download className="btn nav-resume">
-                    Resume
-                </a>
-            </nav>
 
             {/* Hero Section */}
             <main className="hero">
@@ -395,52 +363,7 @@ function App() {
                 </div>
             </section>
 
-            {/* Contact */}
-            <section id="contact" className="section contact">
-                <p className="section-label">&gt; contact</p>
-                <h2>Let's Connect</h2>
-
-                <p>Interested in working together or discussing an IT opportunity?</p>
-
-                <div className="contact-panel">
-                    <button
-                        type="button"
-                        className="contact-row"
-                        onClick={() => copyToClipboard("nitunjaychauhan@gmail.com", "email")}
-                    >
-                        <span>email</span>
-                        <strong>nitunjaychauhan@gmail.com</strong>
-                        <span className="copy-hint">{copied === "email" ? "copied" : "copy"}</span>
-                    </button>
-
-                    <button
-                        type="button"
-                        className="contact-row"
-                        onClick={() => copyToClipboard("+918468964354", "phone")}
-                    >
-                        <span>phone</span>
-                        <strong>+91 84689 64354</strong>
-                        <span className="copy-hint">{copied === "phone" ? "copied" : "copy"}</span>
-                    </button>
-
-                    <div className="contact-row contact-row--static">
-                        <span>based</span>
-                        <strong>Old Goa, Goa, India</strong>
-                    </div>
-                </div>
-
-                <div className="buttons contact-buttons">
-                    <a href="mailto:nitunjaychauhan@gmail.com" className="btn primary">
-                        Contact Me
-                    </a>
-                    <a href={SOCIAL_LINKS.github} target="_blank" rel="noreferrer" className="btn">
-                        [GitHub]
-                    </a>
-                    <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noreferrer" className="btn">
-                        [LinkedIn]
-                    </a>
-                </div>
-            </section>
+            
 
             <footer>
                 &gt;_ NITUNJAY CHAUHAN

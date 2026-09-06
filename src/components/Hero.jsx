@@ -2,6 +2,9 @@ import terminal from "./Terminal";
 
 function Hero() {
     return (
+
+        
+
         <main className="hero">
             <section className="hero-left">
                 <div className="tags">
