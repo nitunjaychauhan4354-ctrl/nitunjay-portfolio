@@ -1,27 +1,6 @@
+import { achievements } from "../data/Achivemnets";
+
 function Achievements() {
-    const achievements = [
-        {
-            number: "01",
-            title: "GRE Deployment",
-            description:
-                "Supported deployment of 500+ smart devices for Guest Room Entertainment systems with Tata Sky and Hudini.",
-        },
-
-        {
-            number: "02",
-            title: "Cambium Wi-Fi",
-            description:
-                "Assisted with installation and configuration of 200+ Cambium Networks access points for hotel-wide wireless coverage.",
-        },
-
-        {
-            number: "03",
-            title: "#ABC2025 Support",
-            description:
-                "Part of the core on-site IT support team for IHCL's flagship event, keeping network operations running through peak load.",
-        },
-    ];
-
     return (
         <section id="achievements" className="section">
             <p className="section-label">
