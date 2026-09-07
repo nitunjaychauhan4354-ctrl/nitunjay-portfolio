@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const SOCIAL_LINKS = {
-    github: "https://github.com/yourusername",
+    github: "https://github.com/nitunjaychauhan4354-ctrl",
     linkedin: "https://www.linkedin.com/in/yourusername/",
 };
 
@@ -99,7 +99,7 @@ function Contact() {
                     rel="noreferrer"
                     className="btn"
                 >
-                    [GitHub]
+                     GitHub
                 </a>
 
                 <a
@@ -108,7 +108,7 @@ function Contact() {
                     rel="noreferrer"
                     className="btn"
                 >
-                    [LinkedIn]
+                    LinkedIn
                 </a>
             </div>
         </section>
