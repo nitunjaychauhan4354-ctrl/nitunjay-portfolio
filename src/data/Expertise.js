@@ -1,4 +1,4 @@
-export const achievements = [
+export const expertise = [
     {
         number: "01",
         title: "IT Infrastructure Management",

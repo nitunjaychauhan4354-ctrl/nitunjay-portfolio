@@ -1,30 +1,30 @@
-import { achievements } from "../data/Achivemnets";
+import { expertise } from "../data/Expertise";
 
-function Achievements() {
+function Expertise() {
     return (
-        <section id="achievements" className="section">
+        <section id="expertise" className="section">
             <p className="section-label">
-                &gt; achievements
+                &gt; expertise
             </p>
 
-            <h2>Achievements</h2>
+            <h2>Core IT Expertise</h2>
 
             <div className="project-grid">
-                {achievements.map((achievement) => (
+                {expertise.map((item) => (
                     <div
                         className="project-card"
-                        key={achievement.number}
+                        key={item.number}
                     >
                         <span>
-                            {achievement.number}
+                            {item.number}
                         </span>
 
                         <h3>
-                            {achievement.title}
+                            {item.title}
                         </h3>
 
                         <p>
-                            {achievement.description}
+                            {item.description}
                         </p>
                     </div>
                 ))}
@@ -33,4 +33,4 @@ function Achievements() {
     );
 }
 
-export default Achievements;
+export default Expertise;
