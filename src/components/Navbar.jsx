@@ -56,6 +56,16 @@ function Navbar() {
                 </a>
 
                 <a
+                    href="#skills"
+                    className={activeSection === "skills" ? "active" : ""}
+                >
+                    <span className="nav-caret">
+                        {activeSection === "skills" ? "> " : ""}
+                    </span>
+                    Skills
+                </a>
+
+                <a
                     href="#experience"
                     className={activeSection === "experience" ? "active" : ""}
                 >
@@ -64,17 +74,18 @@ function Navbar() {
                     </span>
                     Experience
                 </a>
+                
 
                 <a
-                    href="#achievements"
+                    href="#expertise"
                     className={
-                        activeSection === "achievements" ? "active" : ""
+                        activeSection === "expertise" ? "active" : ""
                     }
                 >
                     <span className="nav-caret">
-                        {activeSection === "achievements" ? "> " : ""}
+                        {activeSection === "expertise" ? "> " : ""}
                     </span>
-                    Achievements
+                    Expertise
                 </a>
 
                 <a
@@ -87,25 +98,6 @@ function Navbar() {
                     Projects
                 </a>
 
-                <a
-                    href="#skills"
-                    className={activeSection === "skills" ? "active" : ""}
-                >
-                    <span className="nav-caret">
-                        {activeSection === "skills" ? "> " : ""}
-                    </span>
-                    Skills
-                </a>
-
-                <a
-                    href="#contact"
-                    className={activeSection === "contact" ? "active" : ""}
-                >
-                    <span className="nav-caret">
-                        {activeSection === "contact" ? "> " : ""}
-                    </span>
-                    Contact
-                </a>
 
                 <a
                     href="#terminal"
@@ -116,6 +108,17 @@ function Navbar() {
                     </span>
                     Terminal
                 </a>
+                
+                <a
+                    href="#contact"
+                    className={activeSection === "contact" ? "active" : ""}
+                >
+                    <span className="nav-caret">
+                        {activeSection === "contact" ? "> " : ""}
+                    </span>
+                    Contact Me
+                </a>
+
             </div>
 
             <a
